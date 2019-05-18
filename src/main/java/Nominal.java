@@ -11,7 +11,6 @@ public enum Nominal {
         return value;
 
     }
-
     @Override
     public String toString() {
         return this.name() + ": " + this.value;
